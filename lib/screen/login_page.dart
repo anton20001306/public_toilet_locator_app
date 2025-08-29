@@ -105,6 +105,7 @@ class _LoginScreenState extends State<LoginScreen>
           }
 
           // Check if subscription has expired
+          // modify subscription service
           if (userData.containsKey('subscription') &&
               userData['subscription'] is Map<String, dynamic>) {
             Map<String, dynamic> subscription =
