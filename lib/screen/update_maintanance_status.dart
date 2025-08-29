@@ -7,7 +7,7 @@ import 'dart:io';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 
-// Enhanced ToiletFacility to include more detailed status options Update the maintanance
+// Enhanced ToiletFacility to include more detailed status options Update the  maintanance
 class ToiletFacility {
   final String id;
   final String name;
